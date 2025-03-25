@@ -1,0 +1,37 @@
+.navbar{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+
+}
+.left-nav{
+    display: flex;
+    width: 30%;
+    /* padding: 0 2rem; */
+}
+.left-nav .n-name{
+    margin: 0 2rem;
+}
+.right-nav{
+
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.right-nav ul{
+    display: flex;
+}
+.right-nav ul li{
+    list-style-type: none;
+    margin-right:  1.7rem;
+   cursor: pointer;
+    transition: .3s ease;
+}
+.right-nav ul li a{
+    text-decoration: none;
+}
+.right-nav ul li:hover{
+    color: var(--orange);
+}
+

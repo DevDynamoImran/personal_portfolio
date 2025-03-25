@@ -1,0 +1,126 @@
+.intro{
+    padding: 100px 60px;
+    display: flex;
+
+}
+.intro-left{
+    width: 45%;
+
+}
+.intro-heading{
+    font-size: 50px;
+    font-weight: 500;
+}
+.intro-heading span{
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--orange);
+}
+.intro-left p{
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(101, 97, 97);
+}
+
+
+.social-icon{
+    width: 300px;
+    margin: 50px 0 20px 20px;
+}
+.social-icon img{
+    width: 40px;
+    margin: 20px;
+
+}
+
+
+.intro-right{
+    width: 50%;
+    position: relative;
+}
+
+.intro-main-img img{
+    width: 90%;
+    position: absolute;
+}
+.intro-right img:nth-child(1){
+    left: 0px;
+}
+.intro-right img:nth-child(2){
+    height: 405px;
+    left: 50px;
+}
+.intro-right img:nth-child(3){
+    top: -100px;
+    width: 450px;
+    left: 50px;
+    height: 500px;
+}
+.intro-cards{
+    color: black;
+    display: flex;
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    background: #fff;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 12px;
+   right: -20px;
+   top: -20px;
+   box-shadow: 5px 5px 10px rgb(101, 97, 97);
+}
+.card-img{
+  width: 35px;
+
+}
+.intro-cards .text{
+    font-size: 14px;
+    margin-right: 15px;
+
+}
+.card2{
+    position: absolute;
+    top: 325px;
+    left: -15px;
+}
+.imoji{
+    width: 150px;
+    position: absolute;
+    top: 3px;
+    left: -120px;
+}
+.purple{
+    width: 200px;
+    height: 200px;
+    background: rgb(201, 10, 201);
+    right: 0;
+    position: absolute;
+    top: -90px;
+    filter: blur(122px);
+    border-radius: 50%;
+    z-index: -99;
+}
+.cyan-1{
+    width: 250px;
+    height: 250px;
+    background: cyan;
+    left: 350px;
+    position: absolute;
+    top: 280px;
+    filter: blur(82px);
+    border-radius: 50%;
+    z-index: -99;
+}
+
+.ccc{
+    width: 350px;
+    height: 300px;
+    background: purple;
+    border-radius: 50%;
+    position: absolute;
+    left: 60%;
+    top: 300px;
+    z-index: -8;
+}

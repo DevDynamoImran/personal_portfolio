@@ -1,0 +1,52 @@
+.experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+
+.circles-sec{
+    display: flex;
+    gap: 4rem;
+}
+
+.circle{
+    /* margin: 200px auto; */
+}
+
+.num{
+    font-size: 25px;
+    font-weight: 600 ;
+    display: grid;
+    place-items: center;
+    width: 70px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 40px 0;
+    background: white;
+    color: black;
+    
+}
+.num::before{
+      background-image: linear-gradient(to bottom,#87e6fb 0%,#ffc05c 100%);
+    content: '';
+    width: 80px;
+    height: 80px;
+     position: absolute; 
+     z-index: -8;
+     border-radius: 50%;
+     animation: rot 1s ease 1s infinite linear;
+}
+
+@keyframes rot {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.circle-text span{
+    color: var(--orange);
+}

@@ -1,0 +1,106 @@
+.services{
+    display: flex;
+    padding: 100px 60px;
+    position: relative;
+}
+
+.services-text{
+    width: 40%;
+
+}
+.services-heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+.services-heading span{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.services-text p{
+    font-size: 14px;
+    font-weight: 500;
+    color: grey;
+}
+.cv-btn{
+    margin-top: 35px;
+}
+
+.services-cards{
+    width: 60%;
+    position: relative;
+}
+
+.card{
+    z-index: 6;
+    border: 5px solid var(--orange);
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.8);
+    gap: 10px;
+}
+.card .heart{
+    width: 70px;
+}
+
+.card-desc{
+    font-size: 16px;
+    color: grey;
+
+}
+
+.ser-card-btn{
+    background-color: #fff;
+    color: rgb(91, 91, 255);
+    border: none;
+    margin-top: 12px;
+}
+
+.card:nth-child(1){
+    /* position: absolute;
+    right: 60px; */
+    transform: translate(350px,0);
+}
+.card:nth-child(2){
+    position: absolute;
+    left: -50px;
+    top: 200px;
+    /* transform: translate(); */
+}
+.card:nth-child(3){
+    /* position: absolute;
+    right: 150px;
+    top: 360px; */
+    transform: translate(300px,80px);
+    margin-bottom: 50px;
+}
+.pinkee{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 158, 174);
+    filter: blur(80px);
+    z-index: -999;
+    left: 160px;
+    top: 300px;
+}
+.cyan-2{
+    background-color: cyan;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    filter: blur(150px);
+    border-radius: 50%;
+    /* left: 850px; */
+    left: 830px;
+
+    top: 450px;
+    z-index: -74; 
+}

@@ -1,0 +1,56 @@
+.testimonials{
+    padding: 100px 50px;
+    position: relative;
+}
+.testimonials span{
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+.testimonials span:nth-of-type(2){
+    color: var(--orange);
+}
+.test-card{
+    width: 500px;
+    height: 200px;
+    border: 7px solid var(--blueCard);
+    margin: 150px auto 50px ;
+    padding: 50px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255,.26);
+    box-shadow: var(--boxShadow);
+}
+.test-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:0 40% ;
+}
+.test-card p{
+    color: grey;
+}
+.cyan{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(40, 156, 238);
+    position: absolute;
+    border-radius: 40%;
+    filter: blur(125px);
+    z-index: -99;
+    left: 250px;
+    top: 300px;  
+} 
+.pinkkkk{
+    width: 230px;
+    height: 250px;
+    border-radius: 50%;
+    filter: blur(89px);
+    position: absolute;
+    left: 800px;
+    top: 500px;
+    background-color: rgb(255, 52, 255);
+}
+
+.testimonials .swiper-pagination-bullet-active{
+    background: var(--orange);
+}
